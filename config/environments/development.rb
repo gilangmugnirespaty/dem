@@ -34,4 +34,5 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  ENV["DATABASE_URL"] = "postgres://drsnwknlvwkxkw:_vA8acIBS7DbNbepHy3BTOCcoV@ec2-54-204-2-217.compute-1.amazonaws.com:5432/d4gq1vc4svt80o"
 end
